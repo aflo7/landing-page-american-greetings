@@ -1,35 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main>
+        <div className="top-nav">
+          <input className='search-box' type='text' placeholder='Search' />
+          <div>Sign In</div>
+          <div>Join</div>
+          <div>Member Benefits</div>
+        </div>
+        <div className="logo-wrapper">
+          <img
+            className="the-logo"
+            src="https://ak.imgag.com/imgag/product/siteassets/general/3501190/image.png"
+          />
+        </div>
+        <nav>
+          <div>Ecards</div>
+          <div>Smashups</div>
+          <div>Createacard</div>
+          <div>Digital Gifts</div>
+          <div>Occassions</div>
+          <div>Apps</div>
+          <div>Artists</div>
+        </nav>
+        {/* <div className="the-img"></div> */}
+        <img className='the-img' src='https://ak.imgag.com/imgag/product/siteassets/general/3553993/image.jpg' />
+        <div className="celebrate-text">
+          Celebrate Meaningful Connections With Our Greeting Cards, Ecards and
+          More
+        </div>
+      </main>
     </>
-  )
+  );
 }
-
-export default App
