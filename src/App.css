@@ -14,7 +14,8 @@
   align-items: center;
   gap: 1.5rem;
   padding: 10px;
-  font-size: 0.8rem;
+  padding-right: 30px;
+  font-size: 0.7rem;
   color: gray;
 }
 
@@ -25,10 +26,12 @@ nav {
   row-gap: 1rem;
   padding: 10px;
   flex-wrap: wrap;
+  font-size: 0.9rem;
 }
 
 nav > div {
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /* .the-img {
@@ -47,6 +50,7 @@ nav > div {
   text-transform: uppercase;
   text-align: center;
   padding: 30px;
+  letter-spacing: 2px;
 }
 
 .logo-wrapper {
@@ -55,6 +59,7 @@ nav > div {
 }
 
 main {
+  background-color: white;
   max-width: 1200px;
   margin: 0 auto;
   border-left: 1px solid lightgray;

@@ -5,4 +5,9 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue Regular", helvetica, arial, sans-serif;
+  background: #eee;
+}
+
+h1,p,h2,h3 {
+  margin: 0;
 }
